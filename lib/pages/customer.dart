@@ -124,7 +124,8 @@ class CustomerPage extends StatelessWidget{
                 new Container(
                   child: GestureDetector(
                     onTap: (){
-                      Navigator.push(context, MaterialPageRoute(builder: (context)=>MarketingAssistant()));
+//                      Navigator.push(context, MaterialPageRoute(builder: (context)=>MarketingAssistant()));
+                      Navigator.of(context).pushNamed('/signup');
                     },
                     child: marketingview(),
                   ) ,

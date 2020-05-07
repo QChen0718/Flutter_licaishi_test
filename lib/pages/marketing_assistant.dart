@@ -62,7 +62,6 @@ class _MarketingAssistantState extends State<MarketingAssistant> with SingleTick
         child: new Column(
           children: <Widget>[
             new Container(
-
               child: TabBar(
                 tabs: _itemtitles(),
                 controller: _tabController,
